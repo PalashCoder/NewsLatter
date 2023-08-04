@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        text-align: center;
+        padding: 40px 0;
+        background-image: url("CSS/pexels-lukas-684314.jpg");
+        background-size: cover;
+    }
+
+    h1 {
+        color: #000;
+        font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #404F5E;
+        font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    i {
+        color: red;
+        font-size: 100px;
+        line-height: 200px;
+        margin-left: -15px;
+    }
+
+    .card {
+        padding: 60px;
+        margin: 7% auto;
+    }
+
+    button {
+        margin-top: 2%;
+        height: 50px;
+        width: 110px;
+        border-radius: 7px;
+        border-width: 0;
+        background-color: #ffcc00;
+        font-size: 20PX;
+        font-family: cursive;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="card">
+        <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
+            <i class="checkmark">✘</i>
+        </div>
+        <h1>Failed !</h1>
+        <p>Something Unexpected Occurred.<br /> Please Try Again!</p>
+        <form action="/failure" method="post"><button>Try Again</button></form>
+    </div>
+</body>
+
+</html>

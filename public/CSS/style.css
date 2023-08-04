@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    background-image: url("pexels-lukas-684314.jpg");
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+hr {
+    border: 2px dotted black;
+    border-radius: 50%;
+    width: 30%;
+}
+
+.signup-form {
+    font-size: large;
+    display: inline-block;
+    margin: 14%;
+    height: 400px;
+    width: 500px;
+    border: 2px solid rgba(0, 0, 0, .4);
+    border-radius: 7%;
+}
+
+.input {
+    height: 25px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+
+.mail {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 1px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.text {
+    margin-top: 4rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: black;
+    font-size: larger;
+    text-align: center;
+    opacity: .5;
+}
