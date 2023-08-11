@@ -26,10 +26,10 @@ app.post("/", function (req, res) {
         ]
     }
     var jsonData = JSON.stringify(data);
-    const url = "https://us21.api.mailchimp.com/3.0/lists/5c09600b4d";
+    const url = "mailchimp url server kew and public kew";
     const option = {
         method: "POST",
-        auth: "palash1:456d1391a229d52ef09087803fe980b4-us21",
+        auth: "mailchimp api key",
     }
     const request = https.request(url, option, function (response) {
         response.on("data", function (data) {
